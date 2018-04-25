@@ -1,0 +1,35 @@
+/* Custom Fonts
+          /* -------------------------------- */
+@font-face {
+    font-family: 'Basix Montserrat Light';
+    src: url('montserrat-extralight-webfont.html');
+    src: url('inc/css/custom_fonts/montserrat-light-webfontd41d.eot?#iefix') format('embedded-opentype'),
+    url('inc/css/custom_fonts/montserrat-light-webfont.woff2') format('woff2'),
+    url('inc/css/custom_fonts/montserrat-light-webfont.woff') format('woff'),
+    url('inc/css/custom_fonts/montserrat-light-webfont.ttf') format('truetype'),
+    url('inc/css/custom_fonts/montserrat-light-webfont.svg#montserratlight') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Basix Montserrat Medium';
+    src: url('montserrat-semibold-webfont.html');
+    src: url('inc/css/custom_fonts/montserrat-medium-webfontd41d.eot?#iefix') format('embedded-opentype'),
+    url('inc/css/custom_fonts/montserrat-medium-webfont.woff2') format('woff2'),
+    url('inc/css/custom_fonts/montserrat-medium-webfont.woff') format('woff'),
+    url('inc/css/custom_fonts/montserrat-medium-webfont.ttf') format('truetype'),
+    url('inc/css/custom_fonts/montserrat-medium-webfont.svg#montserratmedium') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+/* -------------------------------- */
+/* Ultimate VC Addons
+  /* -------------------------------- */
+.ubtn {
+    font-family: Montserrat !important;
+    font-weight: 400 !important;
+}
+.uvc-heading .uvc-main-heading h1 {
+    font-family: Montserrat !important;
+    font-weight: 400 !important;
+}

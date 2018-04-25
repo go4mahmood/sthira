@@ -1,0 +1,28 @@
+.arrow_h3 h3 { font-size:1.8em; margin-bottom:35px !important;}
+.vc_custom_1501097011049 h2 { font-size:24px !important;}
+.arrow_home .vc_column-inner .vc_icon_element { opacity:0; background: rgba(0,0,0,0.5); padding:45px 45px;}
+.arrow_home .vc_column-inner:hover .vc_icon_element { opacity:1;}
+.arrow_home_btn a {padding: 5px 30px !important;font-size: 12px !important;}
+.footer-shortcode {width: 100%; height: auto;}
+.footer-container { width: 100%;}
+.arrow_social .wpb_content_element { margin-bottom:15px;}
+.arrow_boxshadow {box-shadow: 0 5px 6px 0 rgba(0,0,0,0.12);}
+.arrow_obg { background:rgba(0,0,0,0.7);}
+a.small{padding: 18px 20px !important;font-size: 13px !important;}
+.arrow-imgw img { max-width:40% !important;}
+.page-id-212 .title-container h1 { color:#a6cd43 !important;}
+.arrow_custom_text, .arrow_custom_text text, .arrow_custom_text ol li, .arrow_custom_text ul li { font-size: 13px !important; line-height:22px !important;}
+.arrow_custom_text p, .arrow_custom_text text, .arrow_custom_text ol li, .arrow_custom_text ul li { margin-bottom:0px !important;}
+.footer-lower-inner {text-align: center; float: initial !important;}
+@media screen and (max-width: 767px) {
+    .footer-lower-container {padding:0 0 25px 0 !important;text-align: center;}
+    .footer-shortcode {text-align: center;}
+}
+@media screen and (min-width: 320px) and (max-width:480px) {
+    .footer-lower-container {padding:0 0 25px 0 !important;text-align: center;}
+    .footer-shortcode {text-align: center;}
+}
+@media screen and (min-width:240px) and (max-width:320px) {
+    .footer-lower-container {padding:0 0 25px 0 !important;text-align: center;}
+    .footer-shortcode {text-align: center;}
+}

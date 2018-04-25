@@ -1,0 +1,635 @@
+/* --------------------------------------------------------------------------------- */
+/* Custom CSS Table of Contents
+  /* --------------------------------------------------------------------------------- */
+/*
+  * Main Color
+  * Accent Color
+  * Top Navigation
+  * Scrollbar
+  * Header
+  * Mobile Navigation
+  * Blockquotes
+  * Tooltips
+  * Custom Body Text Color
+  * Misc
+  * Conditional CSS
+  */
+/* --------------------------------------------------------------------------------- */
+/* Main Color
+  /* --------------------------------------------------------------------------------- */
+/* Foreground
+  /* -------------------------------- */
+h1, h2, h3, h4, h5, h6, h1 a, h2 a, h3 a, h4 a, h5 a, h6 a, a:hover, .home-banner.light .slider-nav li a:hover, .light-bg #portfolio-filters li span:hover, .light-bg .blog-nav a:hover.back:before, .light-bg .blog-nav > a:hover.next:after, .footer.white a:hover, .footer.light a:hover, .white .logo, .white .logo a, .mobilenav li a, .home-banner.light h1, .home-banner.light .slider-nav li a.active, select option, .light-bg .accordion-header, .tabs li a.active, .arrow-list li:before, .light-bg .arrow-list li:before, .light-bg .table-style-1 th, .client-logos-title span, .light-bg .client-logos-title span, .light-bg .team .social i, .light-bg .portfolio-cats-title, .light-bg .post-sharing a i, .footer.white h3, .footer.light h3, .footer-newsletter .textbox, .error-404-title, .home-cta-bar, .footer-infobar.alternate, .mejs-overlay-play:after, .light-bg .categories_filter li.active a, .light-bg .stats-number, .cta-bar.grey .cta-bar-text, .light-bg .wpb_tabs_nav li.ui-tabs-active a, .tp-caption[class*=dark_title], .tp-caption[class*=dark_icon], .footer.light .footer-social i, .footer.white .footer-social i, .forum-titles li, .light-bg #bbpress-forums fieldset.bbp-form legend, #bbpress-forums fieldset.bbp-form label, .light-bg .bbp-breadcrumb:before, .light-bg .bbp-forum-header a.bbp-forum-permalink, .light-bg .bbp-topic-header a.bbp-topic-permalink, .light-bg .bbp-reply-header a.bbp-reply-permalink, .light-bg .bbp-forum-title, a.bbp-topic-permalink, .light-bg .bbp-search-author, .light-bg .bbp-search-content, .header.white .search i, .footer.light .footer-lower-container a, .footer.white .footer-lower-container a, .light-bg .main-content .widget li.menu-item a:hover, a.button.bordered, button.bordered, input.bordered[type="submit"], h3.rpwe-title a, .light-bg .price, .light-bg .per_month, .header.white .topsocial li i, .light-bg .meta-title:before, .header.white .topnav li.menu-item-has-children a:after {
+    color: #383838;
+}
+.footer.light .widget_nav_menu a, .footer.white .widget_nav_menu a {
+    color: #808080 !important;
+}
+.footer.light .widget_nav_menu a:hover, .footer.white .widget_nav_menu a:hover {
+    color: #0d94b2 !important;
+}
+.main-color i {
+    color: #383838 !important;
+}
+/* Important */
+.main-color i, a.button.white, a.button.white i, .dark-bg .vc_tta-tab > a, .vc_tta-panel-title a, ul.blog-list.masonry a:hover.button.accent.read-more, ul.blog-list.masonry a:hover.button.accent.read-more:after, a.button.transparent:hover, button.transparent:hover, input.transparent[type="submit"]:hover, .dark-bg .owl-theme .owl-controls .owl-nav [class*=owl-]:hover, .header.dark .search > i.focus {
+    color: #383838 !important;
+}
+/* Material style forms */
+body.material_form_inputs input[type="text"],
+body.material_form_inputs textarea,
+body.material_form_inputs select {
+    border-bottom-color: rgba(56, 56, 56, 0.24);
+}
+body.material_form_inputs input[type="text"]:focus,
+body.material_form_inputs textarea:focus,
+body.material_form_inputs select:focus {
+    border-color: #0d94b2;
+}
+/* -------------------------------- */
+/* Background
+  /* -------------------------------- */
+.main-color-bg, .dark-bg .main-container, .dark-bg .client-logos-title span, .header.dark, .home-banner.dark, a.button, a.button.main, button, button.main, .action-box.main, .footer-container.dark, .main-content .title-container.main, .footer-infobar.main, .home-cta-bar.main, .light-bg .flip-box-wrap .flip_link a:hover, .light-bg .flip-box-wrap .flip_link a:visited:hover, .light-bg .flip-box-wrap .flip_link a:active:hover, .banner-block .bb-top-title, .light-bg .cta-bar.main, .alert.main, .mejs-container, .mejs-embed, .mejs-embed body, .stretched-page.dark-bg, .header .basix-tooltip, #bbpress-forums li.bbp-header, .footer .big_icons .footer-social li a:hover, .white .mobilenav-button, .white .mobilenav-button:before, .white .mobilenav-button:after, a.link_image:before {
+    background-color: #383838;
+}
+/* Important */
+.vc_single_bar.bar_main .vc_bar, .fakeloader, input.main[type="submit"], .vc_pageable-load-more-btn .vc_btn3 {
+    background-color: #383838 !important;
+}
+/* --------------------------------------------------------------------------------- */
+/* Accent Color
+  /* --------------------------------------------------------------------------------- */
+/* Foreground
+  /* -------------------------------- */
+a, .white .logo span, .white .logo a span, .dark .logo span, .dark .logo a span, .mobilenav li.current-menu-item > a, .home-banner h1 span, .dark-bg #portfolio-filters li span, .light-bg h1 a:hover, .light-bg h2 a:hover, .light-bg h3 a:hover, .light-bg h4 a:hover, .light-bg h5 a:hover, .light-bg h6 a:hover, .home-banner.light .slider-controls a:hover:after, a i, #clients-back a:hover:after, #clients-next a:hover:after, .light-bg .team .social i:hover, .light-bg .post-sharing a i:hover, .footer.light .footer-lower-container a:hover, .mejs-overlay-play:hover:after, .aio-icon, .smile_icon_list.no_bg .icon_list_icon, .light-bg .vc_toggle_title:hover, .wpb_accordion .wpb_accordion_wrapper .ui-state-default .ui-icon, .footer .widget_nav_menu li.current-menu-item > a, a#cancel-comment-reply-link, .tp-caption[class*=accent_icon], .footer.light .footer-social i:hover, .footer.white .footer-social i:hover, .light-bg .vc_toggle_title:before, .light-bg #content .vc_toggle_title:before, .accent, .light-bg span.bbp-admin-links a, .bbp-forum-header a.bbp-forum-permalink:hover, .bbp-topic-header a.bbp-topic-permalink:hover, .bbp-reply-header a.bbp-reply-permalink:hover, a.bbp-forum-title:hover, a.bbp-topic-permalink:hover, .bbp-header a.bbp-reply-author:hover, .bbp-header a.bbp-reply-content:hover, span.wpcf7-not-valid-tip, .header.white .topnav > li:hover > a:after, .jcarousel-item .category:before, .grid-item .category:before, .error-404-container > i, .header .search-click:hover:after, .grid-cat a:hover, .light-bg #portfolio-filters li span.active, label.error {
+    color: #0d94b2;
+}
+/* Important */
+a.accent-color, i.accent-color, i.accent, span.accent-color, .header.light .topsocial li a:hover i, .header.white .topsocial li a:hover i, .clients-carousel a.jcarousel-prev:hover:after, .clients-carousel a.jcarousel-next:hover:after, a.standard-nav.jcarousel-prev:hover:after, a.standard-nav.jcarousel-next:hover:after, .vc_tta-panel-title a:hover, .vc_tta-panel.vc_active .vc_tta-panel-title a, .vc_tta-tab a:hover, .vc_tta-tab.vc_active a, ul.blog-list.masonry a.read-more, .bbp-pagination-links a.prev:after, .bbp-pagination-links a.next:after, .mobilenav a:hover, .mobilenav a:hover:after, .header.white .topnav > li:hover > a, .header.white .topnav > li > a:hover, .header.white .topnav > li > a:hover:after {
+    color: #0d94b2 !important;
+}
+.popular .vc_column-inner:after {
+    border-color: transparent #0d94b2 transparent transparent;
+}
+/* Top nav dropdown arrows */
+.header.white .topnav li.menu-item-has-children a:hover:after {
+    color: inherit;
+}
+/* -------------------------------- */
+/* Background
+  /* -------------------------------- */
+.main-content h1.bordered:after, .divider:after, .slide-style-2 .icon-backing, .slider-nav li a.active:before, a.button, a.button.accent, button.accent, input.accent[type="submit"], .basix-tooltip, .action-box.accent, .blog-meta:after, .carousel-nav a:hover, .top-of-page-link:hover, .footer-infobar.accent, .footer-newsletter .button, .main-content .title-container.accent, .home-cta-bar.accent, .flip-box-wrap .flip_link a:visited, .flip-box-wrap .flip_link a:active, a.prev:hover, a.next:hover, nav a.page-numbers:hover, a.jcarousel-prev:hover, a.jcarousel-next:hover, .cta-bar.accent, .alert.accent, .carousel-holder .mobile-pagination li.active, .blog-post:after, .blog-list .blog-post:after, .topnav > li > ul.sub-menu > li.new a:before, #bbpress-forums .button.submit, .footer a.link_image:hover:before, nav a.page-numbers:hover, .jcarousel-prev:hover, a.jcarousel-next:hover, .main-content h1.bordered:before, body.single-post .title_bordered .blog-meta:before, .title_bordered .portfolio-filtering:before, form input[type="submit"]:focus {
+    background-color: #0d94b2;
+}
+/* Important */
+.tp-caption.accent-bg, .vc_row.accent-bg, .accent-bg .tp-bgimg.defaultimg, .accent-bg .rev_slider_wrapper, .accent-bg > .expanded, .accent-bg > [class*="vc_custom"], .vc_single_bar.bar_accent .vc_bar, .wpb_revslider_element.white-bg .tp-bannertimer, .wpb_revslider_element.white-bg .tp-bullets.simplebullets.round .bullet.selected, .wpb_revslider_element.white-bg .tp-bullets.simplebullets.round .bullet.selected:hover, input[type="submit"].accent:focus, input[type="submit"].accent, a.button.accent, button.accent, input.accent[type="submit"], .owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span, html body input[type="submit"], .wpb_revslider_element.light-bg .rev_slider_wrapper .tp-bullets .tp-bullet.selected, .wpb_revslider_element.light-bg .tp-bannertimer {
+    background-color: #0d94b2 !important;
+}
+/* Font Antialiasing */
+body {
+    -webkit-font-smoothing: auto;
+    font-smoothing: auto;
+    -moz-osx-font-smoothing: auto;
+}
+.tp-caption {
+    -webkit-font-smoothing:  auto !important;
+    font-smoothing:  auto !important;
+    -moz-osx-font-smoothing:  auto !important;
+}
+/* --------------------------------------------------------------------------------- */
+/* Header
+  /* --------------------------------------------------------------------------------- */
+/* Sticky */
+.header {
+    position: absolute;
+}
+body.transparent_header_margin .main-content {
+    margin-top: 0 !important;
+}
+.main-content {
+    margin-top: 80px !important;
+}
+.header.white:after, .header.dark:after {
+    display: none;
+}
+.topnav > li:last-child {
+    padding-right: 0 !important;
+}
+.topnav > li.current-menu-item:last-child > a:before, .topnav > li.current_page_parent:last-child > a:before, .topnav > li.current-menu-ancestor:last-child > a:before, .topnav > li.current-menu-parent:last-child > a:before {
+    right: 0 !important;
+}
+.topbar, .topnav > li, .topnav > li > a, .header .search i {
+    height: 80px;
+    line-height: 80px;
+}
+.header .topnav > li > ul {
+    top: 80px;
+}
+body.transparent_header_margin.bordered .main-content-inner {
+    padding-top: calc(4rem + 80px);
+}
+body.transparent_header_margin .header.stretched .topnav > li:before, body.transparent_header_margin .header .search > i:after {
+    background: transparent;
+}
+.topnav li > ul {
+    background-color: rgba(56, 56, 56, 1.0);
+}
+/* Nav Align */
+ul.topsocial .basix-tooltip {
+    top: calc(80px -20%);
+}
+/* Left Navigation ------ */
+.header .topsocial {
+    margin-left: 0.75em;
+}
+/* Center navigation */
+/* --------------------------------------------------------------------------------- */
+/* Mobile Navigation
+  /* --------------------------------------------------------------------------------- */
+.mobilenav {
+    top: 80px;
+}
+/* --------------------------------------------------------------------------------- */
+/* Blockquotes
+  /* --------------------------------------------------------------------------------- */
+blockquote {
+    border-left-color: #0d94b2 !important;
+}
+/* --------------------------------------------------------------------------------- */
+/* Tooltips
+  /* --------------------------------------------------------------------------------- */
+.basix-tooltip:after {
+    border-top-color: #0d94b2;
+    border-right-color: transparent;
+    border-bottom-color: transparent;
+    border-left-color: transparent;
+}
+ul.topsocial .basix-tooltip:after {
+    border-top-color: transparent;
+    border-right-color: transparent;
+    border-bottom-color: #383838;
+    border-left-color: transparent;
+}
+/* --------------------------------------------------------------------------------- */
+/* Custom Body Text Color
+  /* --------------------------------------------------------------------------------- */
+body.light-bg, body.light-bg.wh, .main-content, .footer.light, .footer.white {
+    color: #808080;
+}
+light-bg .title_excerpt {
+    color: #808080;
+}
+.rpwe-time {
+    color: #808080 !important;
+}
+input.button.white {
+    color: #383838 !important;
+}
+/* --------------------------------------------------------------------------------- */
+/* Misc
+  /* -------------------------------- */
+/* Global Image Border Radius
+  /* -------------------------------- */
+body .vc_basic_grid .vc_gitem-zone, .rpwe-thumb, pre, .crayon-syntax, .wpb_single_image .vc_single_image-wrapper.vc_box_rounded, .wpb_single_image .vc_single_image-wrapper.vc_box_rounded img, .wpb_single_image .vc_single_image-wrapper, body .link_image {
+    border-radius: 5px !important;
+}
+html body .vc_grid.vc_row .vc_grid-item [class*="vc-gitem-zone-height-mode"], html body .vc_basix_masonry_item_image, html body .vc_basix_masonry_item_image a {
+    border-radius: 5px !important;
+}
+html body [class*="vc-gitem-zone-height-mode"]:before, .vc-gitem-zone-height-mode-auto:before, html body .vc_basix_masonry_item_image:before {
+    border-radius: calc(5px + 1px) !important;
+}
+html body .blog-list.grid.boxed .blog-post .post {
+    border-radius: 5px;
+}
+.wpb_image_grid img.attachment-large, .wpb_image_grid img.attachment-medium, .wpb_image_grid img.attachment-thumbnail {
+    border-radius: 5px;
+}
+/* ------ */
+/* -------------------------------- */
+/* Global Button Border Radius
+  /* -------------------------------- */
+a.button, input[type="submit"], button, .vc_btn3-container a, .vc_btn3.vc_btn3-shape-rounded, .header_cta_section a {
+    -webkit-border-radius: 34px !important;
+    -moz-border-radius: 34px !important;
+    border-radius: 34px !important;
+}
+/* ------ */
+.atss {
+    top: 70px !important;
+}
+.at-share-btn {
+    background: transparent !important;
+}
+.at-icon-wrapper {
+    background-color: #383838 !important;
+    opacity: 0.6;
+}
+.at-icon-wrapper:hover {
+    background-color: #0d94b2 !important;
+    opacity: 1;
+}
+/* -------------------------------- */
+/* MediaElement.js
+  /* -------------------------------- */
+.mejs-controls {
+    background: #383838 !important;
+}
+.mejs-time-current {
+    background: #0d94b2 !important;
+}
+/* -------------------------------- */
+/* Visual Composer
+  /* -------------------------------- */
+.dark-bg .smile_icon_list.no_bg .icon_list_icon {
+    background-color: #383838 !important;
+}
+.wpb_content_element .wpb_tabs_nav li.ui-tabs-active {
+    border-top: 2px solid #0d94b2;
+}
+.wpb_accordion .ui-accordion-header-active {
+    background-color: #0d94b2 !important;
+}
+/* -------------------------------- */
+/* Visual Composer / Ultimate VC Addons
+  /* -------------------------------- */
+.light-bg .wpb_tabs_nav li.ui-tabs-active a {
+    color: #383838 !important;
+}
+.light-bg .main-container, .light-bg .jcarousel-nav.separator-with-text, .light-bg .footer-shortcode {
+    background-color: #f3f3f3;
+}
+/* -------------------------------- */
+/* Fonts
+  /* -------------------------------- */
+.vc_toggle_title > h4 {
+    font-family: Montserrat;
+    font-weight: 400;
+    letter-spacing: -0.015em;
+}
+.price, .per_month {
+    font-family: Basix Montserrat Light;
+    font-weight: 400;
+    letter-spacing: 0em;
+    display: inline-block;
+}
+.price {
+    font-size: 3.6em;
+    line-height: 1em;
+}
+.dark-bg .price, .dark-bg .per_month {
+    color: #fff;
+}
+/* -------------------------------- */
+/* White Dropdowns
+  /* -------------------------------- */
+html body .header ul.sub-menu > li a {
+    color: #383838 !important;
+}
+body.dropdown_dark .header .topnav li.mega > ul .mega-container > li > a,
+.mobilenav > li {
+    font-weight: 400 !important;
+    font-size: 0.9em !important;
+    letter-spacing: 0em !important;
+    font-family: Montserrat !important;
+    text-transform:  !important;
+}
+.header ul.sub-menu > li:hover > a {
+    color: #383838 !important;
+    opacity: 1 !important;
+}
+.topnav ul li.menu-item-has-children:after {
+    color: #383838 !important;
+}
+.topnav ul li.menu-item-has-children:hover:after {
+    color: #0d94b2 !important;
+}
+/* -------------------------------- */
+/* Dark Dropdowns
+  /* -------------------------------- */
+body.dropdown_dark .topnav > li > ul {
+    background-color: rgba(56, 56, 56, 1) !important;
+}
+/* --------------------------------------------------------------------------------- */
+/* Conditional CSS
+  /* --------------------------------------------------------------------------------- */
+/* Stretched Content
+  /* -------------------------------- */
+/* -------------------------------- */
+/* -------------------------------- */
+/* -------------------------------- */
+/* -------------------------------- */
+/* Custom Top Bar Color
+  /* -------------------------------- */
+.header {
+    background-color: #ffffff !important;
+}
+.topnav .sub-menu li a {
+    opacity: 0.8 !important;
+}
+.topnav .sub-menu li a:hover {
+    opacity: 1 !important;
+}
+.header.dark .topnav > li.current-menu-item > a, .header.dark .topnav > li.current_page_parent > a, .header.dark .topnav > li.current-menu-parent > a {
+    border-top-color: #ffffff;
+}
+.main-container {
+    background-color: #f3f3f3 !important;
+}
+.main-content h1.bordered:before, .divider:after, body.single-post .title_bordered .blog-meta:before, .title_bordered .portfolio-filtering:before {
+    border-right: 5px solid #f3f3f3;
+}
+.footer.dark {
+    background-color: #191919 !important;
+}
+/* -------------------------------- */
+/* Custom Title Bar Color
+  /* -------------------------------- */
+.main-content .title-container.custom {
+    background-color: #ffffff;
+}
+.main-content .title-container.custom h1, .main-content .title-container.custom h2 {
+    color: #333333;
+}
+/*.title-container.custom .content-width div:nth-child(2) {
+  opacity: 0.8;
+  }*/
+html body .main-content #portfolio-filters li span.active,
+html body .main-content #portfolio-filters li span:hover {
+    color: #0d94b2 !important;
+    opacity: 1 !important;
+}
+.title-container.custom {
+    border-top-color: #333333;
+}
+.title-container.custom .title_excerpt {
+    color: rgba(51, 51, 51, 0.8) !important;
+}
+/* -------------------------------- */
+/* Header CTA Buttons
+  /* -------------------------------- */
+.header_cta_section a {
+    font-family: Montserrat !important;
+    font-size: 0.94rem !important;
+    font-weight: 400 !important;
+    letter-spacing: 0rem !important;
+    text-transform: uppercase !important;
+}
+.header.dark .header_cta_section a:hover {
+    color: rgba(56, 56, 56, 1);
+    background-color: #fff;
+    border-color: rgba(255,255,255,1);
+}
+.header.white .header_cta_section a:hover {
+    color: #ffffff;
+    background-color: #0d94b2;
+    border-color: #0d94b2;
+}
+/* -------------------------------- */
+/* Standard Color Footer Links
+  /* -------------------------------- */
+.footer.dark .column-container a {
+    color: rgba(255, 255, 255, 0.85);
+}
+.footer.dark .column-container a:hover {
+    color: #ffffff;
+}
+.footer.light .column-container li > a {
+    color: #383838;
+}
+.footer.light .column-container li > a:hover {
+    color: #0d94b2;
+}
+.footer.white .column-container li > a {
+    color: #383838;
+}
+.footer.white .column-container li > a:hover {
+    color: #0d94b2;
+}
+.footer.light input,
+.footer.white input {
+    border-color: rgba(0, 0, 0, 0.2) !important;
+}
+.footer.light input[type="submit"],
+.footer.white input[type="submit"] {
+    background-color: #383838 !important;
+}
+.footer.light a, .footer.white a {
+    color: #383838 !important;
+}
+.footer.light a:hover, .footer.white a:hover {
+    color: #0d94b2 !important;
+}
+.main-container {
+    opacity: 0;
+}
+/* Top Bar Search -------------------- */
+@media only screen and (min-width: 1025px) {
+    .header .search > i {
+        height: 80px;
+        line-height: 80px;
+    }
+}
+.header .search ::-webkit-input-placeholder {
+    color: rgba(56, 56, 56, 0.6) !important;
+}
+.header .search :-moz-placeholder {
+    /* Mozilla Firefox 4 to 18 */
+    color: rgba(56, 56, 56, 0.6) !important;
+}
+.header .search ::-moz-placeholder {
+    /* Mozilla Firefox 19+ */
+    color: rgba(56, 56, 56, 0.6) !important;
+}
+.header .search :-ms-input-placeholder {
+    /* Internet Explorer 10+ */
+    color: rgba(56, 56, 56, 0.6) !important;
+}
+.header .search .close_search i {
+    color: #383838;
+}
+.header .search .close_search i:hover {
+    color: #0d94b2;
+}
+/* bbPress */
+.bbp-breadcrumb, #bbpress-forums li.bbp-header, #bbpress-forums li.bbp-footer, .bbp-forum-title {
+    font-family: Montserrat;
+    font-weight: 400;
+    letter-spacing: -0.015em;
+}
+.bbp-forum-title {
+    font-size: 1.1em;
+}
+/* Mega menu titles */
+.topnav li.mega > ul > li > a,
+body .topnav li.mega > ul .mega-container > li > a {
+    font-family: Montserrat !important;
+    font-weight: 400 !important;
+    letter-spacing: 0em !important;
+    font-size: 0.9em !important;
+    text-transform:  !important;
+}
+body.dropdown_light .topnav li.mega > ul .mega-container > li > a {
+    color: #383838 !important;
+}
+/* White Dropdown Current Menu Item */
+html body.dropdown_light .header .topnav li > ul li.current-menu-item a {
+    color: #383838 !important;
+}
+/* Mobile Menu Links */
+.mobilenav li  {
+    font-family: Montserrat;
+    font-weight: 400;
+    text-transform: ;
+}
+/* Light Footer RGBA */
+.footer.light .footer-copyright, .footer.white .footer-copyright {
+    color: rgba(56, 56, 56, 0.5);
+}
+/* Light Footer Form Focus */
+.footer.light input:focus {
+    border-color: #0d94b2 !important;
+}
+/* Blog Pagination */
+.page-numbers {
+    font-family: Montserrat !important;
+    font-weight: 400 !important;
+}
+/* Top social icons */
+.header.white .topsocial li a:hover i, .header.light .topsocial li a:hover i {
+    color: #0d94b2 !important;
+    opacity: 1;
+}
+/* Footer social icons */
+.footer.white .footer-social li a, .footer.light .footer-social li a {
+    background-color: rgba(56, 56, 56, 0.3);
+}
+/* Basic Pricing Amount */
+body .main-content .price {
+    font-family: Montserrat !important;
+    font-weight: 400 !important;
+    letter-spacing: -0.015em !important;
+}
+/* VC Grid Titles */
+.vc_gitem-post-data h3 {
+    font-family: Montserrat !important;
+    font-weight: 400 !important;
+    font-size: 1.4 !important;
+}
+/* VC Grid Image BG */
+.vc_grid-item .vc_is-hover .vc_basix_masonry_item_image:before,
+.vc_grid-item .vc_is-hover .vc_basix_grid_item_standard .vc_gitem-zone-a:before {
+    background-color: rgba(56, 56, 56, 0.2);
+    opacity: 1 !important;
+}
+.vc_grid-item .vc_is-hover .vc_basix_grid_item_mouseover .vc_gitem-zone-b:before {
+    background-color: rgba(56, 56, 56, 0.8) !important;
+    opacity: 1 !important;
+}
+/* Default Mini Divider Color */
+.mini-divider {
+    background-color: #0d94b2;
+}
+.dark-bg .mini-divider {
+    background-color: rgba(255,255,255, 0.2);
+}
+/* Force Blog Grid Title Size */
+.grid .blog-post h2.inner-title, .vc_gitem-post-data h4 {
+    font-size: 1.4 !important;
+}
+/* Formfield Focus */
+.white-form-inputs .main-content input:focus,
+.white-form-inputs .main-content textarea:focus,
+.white-form-inputs .main-content select:focus,
+.white-form-inputs .footer.white input:focus,
+.white-form-inputs .footer.light input:focus,
+.white-form-inputs .footer.white textarea:focus,
+.white-form-inputs .footer.light textarea:focus,
+.white-form-inputs .footer.white select:focus,
+.white-form-inputs .footer.light select:focus,
+html body.transparent_header .header.white .topbar .search .searchbox input:focus {
+    border: 1px solid rgba(13, 148, 178, 1) !important;
+    /*-webkit-box-shadow: 0 0 6px rgba(13, 148, 178, 0.3), 0 0 1px rgba(13, 148, 178, 1) !important;
+      -moz-box-shadow: 0 0 6px rgba(13, 148, 178, 0.3) !important;
+      box-shadow: 0 0 6px rgba(13, 148, 178, 0.3) !important;*/
+}
+/* White forms text color */
+.light-bg input, .light-bg textarea, .light-bg select {
+    color: rgba(56, 56, 56, 0.8) !important;
+}
+/* Dark BG based formfields -------- */
+.dark-bg input, .dark-bg textarea, .dark-bg select {
+    color: #fff !important;
+    background-color: rgba(255,255,255,0.15) !important;
+    border: none !important;
+}
+.dark-bg input:focus, .dark-bg textarea:focus, .dark-bg select:focus {
+    color: rgba(56, 56, 56, 1) !important;
+    background-color: #fff !important;
+    border: none !important;
+}
+.dark-bg ::-webkit-input-placeholder {
+    color: rgba(255,255,255,0.5) !important;
+    opacity: 1 !important;
+}
+.dark-bg *:focus::-webkit-input-placeholder {
+    color: rgba(255,255,255,0.6) !important;
+    opacity: 1 !important;
+}
+.dark-bg label.error {
+    color: #fff;
+}
+/* ------------- */
+.dark-bg input:focus, .dark-bg textarea:focus, .dark-bg select:focus {
+    border: 1px solid rgba(255,255,255,0.6);
+}
+/* Blog List Page Title */
+/* Owl carousel nav */
+.owl-theme .owl-controls .owl-nav [class*=owl-]:hover {
+    border-color: #0d94b2 !important;
+}
+/* Bordered button */
+a.button.bordered, button.bordered, input.bordered[type="submit"] {
+    -webkit-box-shadow: inset 0 0 0 2px rgba(56, 56, 56, 0.3) !important;
+    -moz-box-shadow: inset 0 0 0 2px rgba(56, 56, 56, 0.3) !important;
+    box-shadow: inset 0 0 0 2px rgba(56, 56, 56, 0.3) !important;
+    color: #383838 !important;
+}
+a.button.bordered:hover, button.bordered:hover, input.bordered[type="submit"]:hover {
+    background-color: #0d94b2 !important;
+    background-image: none;
+    -webkit-box-shadow: inset 0 0 0 2px #0d94b2 !important;
+    -moz-box-shadow: inset 0 0 0 2px #0d94b2 !important;
+    box-shadow: inset 0 0 0 2px #0d94b2 !important;
+    color: #ffffff !important;
+}
+/* Recent Posts Extended Plugin */
+body .rpwe-block h3 {
+    font-size: 1.05em !important;
+    font-family: Montserrat !important;
+    font-weight: 400 !important;
+    letter-spacing: -0.015em !important;
+    padding-left: 63px;
+    margin-bottom: 0 !important;
+    line-height: 1.4em;
+}
+/* Category Link Colors */
+.light-bg .grid-cat a {
+    font-size: 0.9em;
+    color: inherit;
+}
+.light-bg .grid-cat a:hover {
+    color: #383838;
+}
+/* Portfolio Filter coloring */
+.post-template-default .blog-meta,
+body.stretched_title .portfolio-filtering {
+    color: #808080;
+}
+/* -------------------------------- */
+/* Custom Dropdown Color
+  /* -------------------------------- */
+body .header .topnav li > ul {
+    background-color: #070707 !important;
+}
+/* -------------------------------- */
