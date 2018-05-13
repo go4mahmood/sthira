@@ -632,4 +632,5 @@ body.stretched_title .portfolio-filtering {
 body .header .topnav li > ul {
     background-color: #070707 !important;
 }
+.header.white .topnav li.current-menu-item > a,.header.white .topnav li.current-menu-ancestor > a,.header.white .topnav li.current_page_parent > a,.header.white .topnav li.current-menu-parent > a{color:#0d94b2;}
 /* -------------------------------- */
